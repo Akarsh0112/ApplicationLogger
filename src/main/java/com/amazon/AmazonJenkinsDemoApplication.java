@@ -8,7 +8,7 @@ public class AmazonJenkinsDemoApplication implements CommandLineRunner {
 	public static final Logger Logger= LoggerFactory.getLogger(AmazonJenkinsDemoApplication.class);
 
 	public static void main(String[] args) {
-		Logger.info("its a second CI pipeline job");
+		Logger.info("its a second akarsh CI pipeline job");
 		SpringApplication.run(AmazonJenkinsDemoApplication.class, args);
 	}
 
